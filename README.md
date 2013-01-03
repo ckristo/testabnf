@@ -11,9 +11,8 @@ Usage:
 
     testabnf.sh aparse.jar file.abnf test-file
 
-* file.abnf : Contains the ABNF grammar used to parse the test strings
-* test-file: A simple text file that contains the test strings line by line
-with a prefixed sign indicating if the test should succeed or fail, e.g.:
+* *file.abnf* : contains the ABNF grammar used to parse the test strings
+* *test-file* : a text file that contains the test strings line by line with a prefixed sign indicating if the test should succeed or fail, e.g.:
 
 > + a string that should be parsed successfully by aparse
 > - a string that should NOT be parsed successfully by aparse
