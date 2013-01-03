@@ -1,0 +1,30 @@
++ !login christoph
++ !login 12345
++ !login ~_*."-
+- !login
++ !logout
+- !logout christoph
++ !list
+- !list auctions
++ !create 25200 A little description that is long enough
++ !create 0 A little description that is long enough
++ !create 9 A little description that is long enough
++ !create 10 A little description that is long enough
+- !create
+# - !create 25200 Too little txt
+ - !create abc A little description that is long enough
+- !create A little description that is long enough
+# - !create 25200 A little description that is way toooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo long
++ !bid 3 250.00
++ !bid 11 250
++ !bid 324 0
++ !bid 0 15
++ !bid 543 1.5
++ !bid 531 1.50
+- !bid
+- !bid a 50
+- !bid 41 abc
+- !bid a b
+- !bid 3 255.5555
++ !end
+- !end christoph

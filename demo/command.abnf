@@ -1,0 +1,37 @@
+
+Command = "!" ( Login / Logout / List / Create / Bid / End  )  ;
+
+
+
+Login = "login" " " Username ;
+
+Logout = "logout" ;
+
+List = "list" ;
+
+Create = "create" " " Duration " " Description ;
+
+Bid = "bid" " " AuctionId " " Amount ;
+
+End = "end" ;
+
+
+
+Username = 1*(Printable) ;
+
+Duration = Integer ;
+
+Description = *( " " / Printable ) ;
+
+AuctionId = Integer ;
+
+Amount = Integer [ "." *2(Digit) ] ;
+
+
+
+Printable = %x21-7e ;
+
+Integer = ( %x31-39 1*(Digit) ) / ( Digit ) ;
+
+Digit = %x30-39 ;
+
