@@ -7,11 +7,13 @@ Requirements:
 * aparse.jar (download at http://www.parse2.com/download.shtml)
 * (java, javac - JDK version that is needed by aparse)
 
-Usage: 
+Usage:
+
     testabnf.sh aparse.jar file.abnf test-file
 
 * file.abnf : Contains the ABNF grammar used to parse the test strings
 * test-file: A simple text file that contains the test strings line by line
-with a prefixed sign indicating if the test should succeed or fail, e.g.
+with a prefixed sign indicating if the test should succeed or fail, e.g.:
+
 > + a string that should be parsed successfully by aparse
 > - a string that should NOT be parsed successfully by aparse
